@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /go/
+
+# AI crawlers welcome (for AI Overviews / Copilot / ChatGPT answers)
+User-agent: GPTBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://YOURDOMAIN.com/sitemap.xml
